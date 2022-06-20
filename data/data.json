@@ -1,0 +1,148 @@
+{
+  "top_banner_ratings": [
+    {
+      "id": "1",
+      "from": "Google",
+      "logoUrl": "google.png",
+      "rateTitle": "Excelent",
+      "avarageRating": 4.7,
+      "reviewsCount": 27
+    },
+    {
+      "id": "2",
+      "from": "Facebook",
+      "logoUrl": "facebook.png",
+      "rateTitle": "Excelent",
+      "avarageRating": 4.1,
+      "reviewsCount": 19
+    },
+    {
+      "id": "3",
+      "from": "Trustpilot",
+      "logoUrl": "trustpilot.png",
+      "rateTitle": "Excelent",
+      "avarageRating": 4.2,
+      "reviewsCount": 11
+    },
+    {
+      "id": "4",
+      "from": "Google",
+      "logoUrl": "google.png",
+      "rateTitle": "Excelent",
+      "avarageRating": 3.8,
+      "reviewsCount": 4
+    },
+    {
+      "id": "5",
+      "from": "Facebook",
+      "logoUrl": "facebook.png",
+      "rateTitle": "Excelent",
+      "avarageRating": 4.6,
+      "reviewsCount": 15
+    }
+  ],
+  "popular_products": [
+    {
+      "id": "1",
+      "title": "CBD Dog Treats + Heart & Immune Care-Blueberry ",
+      "imageUrl": "prod1.png",
+      "description": "some description",
+      "category": "Dog Treats",
+      "producer": "Pet Hemp Company",
+      "price": 24.55
+    },
+    {
+      "id": "2",
+      "title": "CBD Capsules 150mg/ 300mg/ 600mg ",
+      "imageUrl": "prod2.png",
+      "description": "some description",
+      "category": "CBD Capsules",
+      "producer": "Pet Hemp Company",
+      "price": 35.55
+    },
+    {
+      "id": "3",
+      "title": "CBD Dog Treats - RELAX: Anxiety & Stress Relief ",
+      "imageUrl": "prod3.png",
+      "description": "some description",
+      "category": "Cat Treats",
+      "producer": "Pet Hemp Company",
+      "price": 24.40
+    },
+    {
+      "id": "4",
+      "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+      "imageUrl": "prod4.png",
+      "description": "some description",
+      "category": "Dog Treats",
+      "producer": "Pet Hemp Company",
+      "price": 24.00
+    },
+    {
+      "id": "5",
+      "title": "CBD Dog Treats - RELAX: Anxiety & Stress Relief",
+      "imageUrl": "prod2.png",
+      "description": "some description",
+      "category": "CBD Tinctures",
+      "producer": "Pet Hemp Company",
+      "price": 44.55
+    }
+  ],
+  "discounted_products": [
+    {
+      "id": "1",
+      "title": "CBD Dog Treats + Heart & Immune Care-Blueberry ",
+      "imageUrl": "img1.png",
+      "description": "some description",
+      "category": "Dog Treats",
+      "producer": "Pet Hemp Company",
+      "actualPrice": 24.55,
+      "discountedPrice": 15.99,
+      "discountPercent": 33
+    },
+    {
+      "id": "2",
+      "title": "CBD Capsules 150mg/ 300mg/ 600mg ",
+      "imageUrl": "img2.png",
+      "description": "some description",
+      "category": "CBD Capsules",
+      "producer": "Pet Hemp Company",
+      "actualPrice": 35.55,
+      "discountedPrice": 19.99,
+      "discountPercent": 30
+    },
+    {
+      "id": "3",
+      "title": "CBD Dog Treats - RELAX: Anxiety & Stress Relief ",
+      "imageUrl": "img3.png",
+      "description": "some description",
+      "category": "Cat Treats",
+      "producer": "Pet Hemp Company",
+      "actualPrice": 24.40,
+      "discountedPrice": 15.99,
+      "discountPercent": 40
+    },
+    {
+      "id": "4",
+      "title": "CBD Oil for Dogs & CatsCBD Oil for Dogs & Cats",
+      "imageUrl": "img1.png",
+      "description": "some description",
+      "category": "Dog Treats",
+      "producer": "Pet Hemp Company",
+      "actualPrice": 24.00,
+      "discountedPrice": 17.99,
+      "discountPercent": 20
+    },
+    {
+      "id": "5",
+      "title": "CBD Dog Treats - RELAX: Anxiety & Stress Relief",
+      "imageUrl": "img2.png",
+      "description": "some description",
+      "category": "CBD Tinctures",
+      "producer": "Pet Hemp Company",
+      "actualPrice": 44.55,
+      "discountedPrice": 21.99,
+      "discountPercent": 55
+    }
+  ]
+}

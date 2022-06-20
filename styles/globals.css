@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #262626;
 }
 
 a {
@@ -13,4 +17,162 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.bannerCarouselWrapper .react-multi-carousel-dot-list,
+.popularProductsCarouselWrapper .react-multi-carousel-dot-list,
+.bundleAndSaveCarouselWrapper .react-multi-carousel-dot-list,
+.customerReviewsCarouselWrapper .react-multi-carousel-dot-list {
+  @apply relative top-[8px] !important;
+}
+
+.guaranteeCarouselWrapper .react-multi-carousel-dot-list {
+  @apply relative mt-10 !important;
+}
+
+.bannerCarouselWrapper .react-multi-carousel-dot button,
+.popularProductsCarouselWrapper .react-multi-carousel-dot button,
+.bundleAndSaveCarouselWrapper .react-multi-carousel-dot button,
+.customerReviewsCarouselWrapper .react-multi-carousel-dot button,
+.guaranteeCarouselWrapper .react-multi-carousel-dot button {
+  @apply h-[5px] w-[41px] bg-[#F1F2F7] rounded-none border-0 !important;
+}
+
+.bannerCarouselWrapper .react-multi-carousel-dot--active button,
+.popularProductsCarouselWrapper .react-multi-carousel-dot--active button,
+.bundleAndSaveCarouselWrapper .react-multi-carousel-dot--active button,
+.customerReviewsCarouselWrapper .react-multi-carousel-dot--active button,
+.guaranteeCarouselWrapper .react-multi-carousel-dot--active button {
+  @apply bg-[#067D7B] !important;
+}
+
+.bannerCarouselWrapper .react-multiple-carousel__arrow--left {
+  @apply w-[50px] h-[50px] border border-solid border-[#067D7B] bg-white rounded-sm opacity-100 !important;
+  @apply absolute top-[-260px] hidden customXl:inline !important;
+}
+
+.bannerCarouselWrapper .react-multiple-carousel__arrow--left::before {
+  content: url("../public/img/icons/prevArrow.png") !important;
+  padding-top: 6px;
+}
+
+.bannerCarouselWrapper .react-multiple-carousel__arrow--right {
+  @apply w-[50px] h-[50px] border border-solid border-[#067D7B] bg-white rounded-sm opacity-100 !important;
+  @apply absolute top-[-260px] hidden customXl:inline !important;
+}
+
+.bannerCarouselWrapper .react-multiple-carousel__arrow--right::before {
+  content: url("../public/img/icons/nextArrow.png") !important;
+  padding-top: 6px;
+}
+
+.bannerCarouselWrapper .bannerCarouselWrapper {
+  @apply relative;
+}
+
+.bannerCarouselWrapper .react-multi-carousel-list {
+  position: unset !important;
+}
+
+.bannerCarouselWrapper .activeBtn {
+  @apply text-[#484C56] bg-[#F1F2F7];
+}
+
+.bannerCarouselWrapper .cardWrapper {
+  box-shadow: 0px 10px 16px rgba(139, 143, 167, 0.2);
+  @apply mb-6 mt-[9px] rounded-sm;
+}
+
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--left,
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--right,
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--left,
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--right,
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--left,
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--right {
+  @apply border-0  md:opacity-100 md:w-[50px] md:h-[50px] md:border border-solid border-[#067D7B] md:bg-white rounded-sm md:top-[90px] customXl:top-[148px] min-h-fit min-w-fit top-[72px] bg-transparent !important;
+}
+
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--left {
+  @apply -left-3 md:left-0 customXl:left-[25px]  !important;
+}
+
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--right {
+  @apply -right-3 md:right-0 customXl:right-[25px] !important;
+}
+
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--left {
+  @apply -left-3 md:left-0 customXl:left-[25px] top-[90px] !important;
+}
+
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--right {
+  @apply -right-3 md:right-0 customXl:right-[25px] top-[90px] !important;
+}
+
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--left {
+  @apply -left-3 md:left-0 customXl:left-[25px] top-[130px] customXl:top-[180px] !important;
+}
+
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--right {
+  @apply -right-3 md:right-0 customXl:right-[25px] top-[130px] customXl:top-[180px] !important;
+}
+
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--left::before,
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--left::before,
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--left::before {
+  content: url("../public/img/icons/prevArrow.png") !important;
+  padding-top: 6px;
+}
+
+.bundleAndSaveCarouselWrapper .react-multiple-carousel__arrow--right::before,
+.popularProductsCarouselWrapper .react-multiple-carousel__arrow--right::before,
+.customerReviewsCarouselWrapper .react-multiple-carousel__arrow--right::before {
+  content: url("../public/img/icons/nextArrow.png") !important;
+  padding-top: 6px;
+}
+.bundleAndSaveCarouselWrapper .react-multi-carousel-dot-list,
+.popularProductsCarouselWrapper .react-multi-carousel-dot-list,
+.customerReviewsCarouselWrapper .react-multi-carousel-dot-list {
+  @apply mt-10;
+}
+
+.bundleAndSaveCarouselWrapper .react-multi-carousel-list,
+.popularProductsCarouselWrapper .react-multi-carousel-list,
+.customerReviewsCarouselWrapper .react-multi-carousel-list {
+  @apply static;
+}
+
+.concernCard {
+  box-shadow: 0px 10px 16px rgba(139, 143, 167, 0.2);
+  @apply rounded-sm flex flex-col items-center justify-center py-5 md:py-[30px] text-[22px] leading-[35px] font-medium;
+}
+
+.ourStoryContent {
+  @apply text-base leading-8 max-h-[130px] md:max-h-[192px] customXl:max-h-[272px] overflow-y-auto pr-3.5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #93cfd299;
+  border-radius: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  padding: 0 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 50%;
+  background: #e3f2f2;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+  padding: 0 1px;
+}
+
+.guaranteeCarouselWrapper {
+  box-shadow: 0px 13px 25px rgba(139, 143, 167, 0.22);
 }
